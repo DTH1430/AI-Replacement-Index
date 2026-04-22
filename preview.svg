@@ -1,0 +1,67 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09090b"/>
+      <stop offset="1" stop-color="#18181b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 140) rotate(135) scale(420 360)">
+      <stop stop-color="#dc2626" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#dc2626" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="240" y1="178" x2="960" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#f87171"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1200" height="630" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity="0.16" filter="url(#blur)">
+    <circle cx="180" cy="520" r="120" fill="#ef4444"/>
+    <circle cx="1030" cy="120" r="160" fill="#7c3aed"/>
+  </g>
+
+  <g opacity="0.12" stroke="#ffffff">
+    <path d="M0 520H1200"/>
+    <path d="M0 420H1200"/>
+    <path d="M0 320H1200"/>
+    <path d="M0 220H1200"/>
+    <path d="M120 0V630"/>
+    <path d="M360 0V630"/>
+    <path d="M600 0V630"/>
+    <path d="M840 0V630"/>
+    <path d="M1080 0V630"/>
+  </g>
+
+  <rect x="72" y="72" width="1056" height="486" rx="36" fill="#0f0f12" fill-opacity="0.76" stroke="#27272a" stroke-width="2"/>
+  <rect x="88" y="88" width="1024" height="454" rx="28" fill="none" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="2"/>
+
+  <g>
+    <text x="128" y="186" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">AI Replacement Index</text>
+    <text x="128" y="238" fill="#a1a1aa" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">T£i lên CV và xem nguy c¡ bË AI thay th¿ trong 12 tháng tÛi</text>
+  </g>
+
+  <g transform="translate(128 300)">
+    <rect x="0" y="0" width="300" height="134" rx="22" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="22" y="26" width="256" height="12" rx="6" fill="#27272a"/>
+    <rect x="22" y="54" width="184" height="12" rx="6" fill="#27272a"/>
+    <rect x="22" y="82" width="220" height="12" rx="6" fill="#27272a"/>
+    <circle cx="254" cy="82" r="18" fill="#dc2626"/>
+  </g>
+
+  <g transform="translate(474 300)">
+    <rect x="0" y="0" width="600" height="134" rx="22" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="24" y="26" width="352" height="14" rx="7" fill="#27272a"/>
+    <rect x="24" y="54" width="520" height="14" rx="7" fill="#27272a"/>
+    <rect x="24" y="82" width="430" height="14" rx="7" fill="#27272a"/>
+    <rect x="24" y="108" width="180" height="10" rx="5" fill="#ef4444"/>
+  </g>
+
+  <g>
+    <rect x="128" y="468" width="180" height="46" rx="23" fill="#ef4444"/>
+    <text x="218" y="498" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.6">UPLOAD CV</text>
+  </g>
+</svg>
